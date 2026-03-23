@@ -30,22 +30,3 @@ tuple2 = (400, 500, 600)
 concat_tuple = tuple1 + tuple2
 print("Concatenated Tuple:", concat_tuple)
 
-
-# 7. Length of Tuple
-print("Length of Tuple:", len(my_tuple))
-
-
-# 8. Checking Element in Tuple
-print("Is 20 present in tuple?", 20 in my_tuple)
-
-
-# 9. Tuple Iteration
-print("Iterating through Tuple:")
-for item in my_tuple:
-    print(item)
-
-
-# 10. Tuple Methods
-sample_tuple = (1, 2, 3, 2, 4, 2)
-print("Count of 2:", sample_tuple.count(2))
-print("Index of 3:", sample_tuple.index(3))
